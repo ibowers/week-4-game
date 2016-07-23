@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Star Wars RPG - Week 4 Project - Ian Bowers</title>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" language="javascript"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+	
+	<div class="container">
+		<div class="container text-center">
+			<h1>Star Wars RPG</h1>
+		</div>
+		<div class="row">
+			<div class="col-sm-5">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong>Your Character</strong></h3>
+					</div>
+					<div class="panel-body" id="yourCharacter">
+						<h4 id="playerName"></h4><br/>
+						<img src="" id="playerImage"/><br/>
+						<h4 id="playerHP"></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2 text-center">
+				<input class="btn btn-default center-block" type="button" value="Attack" id="attackButton">
+			</div>
+			<div class="col-sm-5">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong>Enemy</strong></h3>
+					</div>
+					<div class="panel-body">
+						<h4 class="enemyName"></h4><br/>
+						<img src="" class="enemyImage"/><br/>
+						<h4 class="enemyHP"></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong>Enemies Available To Attack</strong></h3>
+					</div>
+					<div class="panel-body">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-3" id="obiWanKenobi">
+									<h5 class="obiWanKenobi.name">Obi Wan Kenobi</h5>
+									<img src="http://placehold.it/240x120" class="img-responsive"><br/>
+									<h5 class="obiWanKenobi.hp">120</h5>
+								</div>
+								<div class="col-xs-3" id="lukeSkywalker">
+									<h5 class="lukeSkywalker.name">Luke Skywalker</h5>
+									<img src="http://placehold.it/240x120" class="img-responsive"><br/>
+									<h5 class="lukeSkywalker.hp">100</h5>
+								</div>
+								<div class="col-xs-3" id="darthSidious">
+									<h5 class="darthSidious.name">Darth Sidious</h5>
+									<img src="http://placehold.it/240x120" class="img-responsive"><br/>
+									<h5 class="darthSidious.hp">130</h5>
+								</div>
+								<div class="col-xs-3" id="darthMaul">
+									<h5 class="darthMaul.name">Darth Maul</h5>
+									<img src="http://placehold.it/240x120" class="img-responsive"><br/>
+									<h5 class="darthMaul.hp">125</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
